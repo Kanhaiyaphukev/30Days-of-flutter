@@ -22,7 +22,6 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.light,
         primarySwatch: Colors.green,
       ),
-      initialRoute:"/home",
       routes:{
         "/":(context) => LoginPage(),
         "/home":(context) => HomePage(),
